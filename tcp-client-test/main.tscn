@@ -1,0 +1,63 @@
+[gd_scene format=3 uid="uid://0p0ayo3nmylc"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextEdit" type="TextEdit" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.997
+anchor_bottom = 1.0
+offset_left = 144.0
+offset_top = 68.0
+offset_right = -128.544
+offset_bottom = -421.0
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.972
+offset_left = 149.0
+offset_top = 243.0
+offset_right = -735.0
+offset_bottom = -947.856
+text = "Connect"
+
+[node name="Button2" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.972
+offset_left = 436.0
+offset_top = 241.0
+offset_right = -448.0
+offset_bottom = -949.856
+text = "Disconnect"
+
+[node name="Button3" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.972
+offset_left = 724.0
+offset_top = 247.0
+offset_right = -160.0
+offset_bottom = -943.856
+text = "Send"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 154.0
+offset_top = 347.0
+offset_right = -138.0
+offset_bottom = -131.0
+text = "This is where the text should come back!"
